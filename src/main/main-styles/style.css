@@ -10,5 +10,5 @@ body {
 }
 
 canvas {
-  image-rendering: pixelated;
+  image-rendering: auto;
 }/*# sourceMappingURL=style.css.map */
