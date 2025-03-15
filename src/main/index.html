@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix</title>
+    <link rel="stylesheet" href="./main-styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js" integrity="sha512-zhHQR0/H5SEBL3Wn6yYSaTTZej12z0hVZKOv3TwCUXT1z5qeqGcXJLLrbERYRScEDDpYIJhPC1fk31gqR783iQ==" crossorigin="anonymous" defer></script>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.174.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.174.0/examples/jsm/"
+          }
+        }
+    </script>
+</head>
+<body>
+    <!-- Scripts -->
+    <script type="module" src="./main.js" defer></script>
+    <script type="module" src="./matrix.js" defer></script>
+
+    <script type="module" src="../ground/ground.js" defer></script>
+    <script type="module" src="../walls/walls.js" defer></script>
+    <script type="module" src="../ceil/ceil.js" defer></script>
+    <script type="module" src="../logo/logo.js" defer></script>
+</body>
+</html>

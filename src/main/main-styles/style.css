@@ -1,0 +1,13 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+#canvas-txt {
+  background: rgb(0, 0, 0);
+}/*# sourceMappingURL=style.css.map */
