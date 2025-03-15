@@ -4,7 +4,7 @@
         { "src": "src/main/**/*", "use": "@vercel/static" }
     ],
     "routes": [
-        { "source": "/(.*)", "destination": "/src/main/index.html" }
+        { "source": "/(.*)", "dest": "/src/main/index.html" }
     ],
     "headers": [
         {
