@@ -12,15 +12,15 @@
     ],
     "rewrites": [
         { 
-            "src": "/", 
+            "source": "/", 
             "dest": "/src/main/index.html" 
         },
         { 
-            "src": "/assets/(.*)", 
+            "source": "/assets/(.*)", 
             "dest": "/assets/$1" 
         },
         { 
-            "src": "/src/(.*)", 
+            "source": "/src/(.*)", 
             "dest": "/src/$1" 
         },
         {
