@@ -22,9 +22,6 @@
         { 
             "source": "/src/(.*)", 
             "destination": "/src/$1" 
-        },
-        {
-            "handle": "filesystem"
         }
     ],
     "headers": [
