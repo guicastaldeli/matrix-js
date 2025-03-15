@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [
-        { "src": "src/main/**/*", "use": "@vercel/static" }
+        { "src": "src/**/*", "use": "@vercel/static" }
     ],
     "rewrites": [
         { "source": "/(?!.*\\..*$)(.*)", "destination": "/src/main/index.html" }
