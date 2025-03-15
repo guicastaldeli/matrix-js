@@ -13,15 +13,15 @@
     "rewrites": [
         { 
             "source": "/", 
-            "dest": "/src/main/index.html" 
+            "destination": "/src/main/index.html" 
         },
         { 
             "source": "/assets/(.*)", 
-            "dest": "/assets/$1" 
+            "destination": "/assets/$1" 
         },
         { 
             "source": "/src/(.*)", 
-            "dest": "/src/$1" 
+            "destination": "/src/$1" 
         },
         {
             "handle": "filesystem"
