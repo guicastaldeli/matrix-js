@@ -5,6 +5,7 @@
         { "src": "assets/**/*", "use": "@vercel/static" }
     ],
     "rewrites": [
+        { "source": "/(.*)", "destination": "/src/main/$1" },
         { "source": "/", "destination": "/src/main/index.html" }
     ],
     "headers": [
