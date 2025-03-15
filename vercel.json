@@ -4,7 +4,7 @@
         { "src": "src/main/**/*", "use": "@vercel/static" }
     ],
     "rewrites": [
-        { "source": "/(.*)", "destination": "/src/main/index.html" }
+        { "source": "/(?!.*\\.(js|css)$)(.*)", "destination": "/src/main/index.html" }
     ],
     "headers": [
         {
