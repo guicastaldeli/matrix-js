@@ -4,8 +4,6 @@ import { camera } from './camera.js';
 import { initCameraControls } from './camera.js';
 import { updateCamera } from './camera.js';
 
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-
 import { createText } from '../logo/logo.js';
 import { createGround } from '../ground/ground.js';
 import { createCeil } from '../ceil/ceil.js';
@@ -32,7 +30,6 @@ window.addEventListener('resize', () => {
 });
 
 document.body.appendChild(renderer.domElement);
-//const controls = new OrbitControls(camera, renderer.domElement);
 
 //Raycaster
     const raycaster = new THREE.Raycaster();
