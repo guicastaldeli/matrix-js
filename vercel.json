@@ -1,11 +1,18 @@
 {
     "version": 2,
     "builds": [
-        { "src": "src/**/*", "use": "@vercel/static" }
+        { "src": "src/**/*", "use": "@vercel/static" },
+        { "src": "assets/**/*", "use": "@vercel/static" }
     ],
     "rewrites": [
-        { "source": "/", "destination": "/src/main/index.html" },
-        { "source": "/(.*)", "destination": "/src/$1" }
+        { "source": "^/$", "destination": "/src/main/index.html" },
+        { "source": "^/main/(.*)", "destination": "/src/main/$1" },
+        { "source": "^/ground/(.*)", "destination": "/src/ground/$1" },
+        { "source": "^/walls/(.*)", "destination": "/src/walls/$1" },
+        { "source": "^/ceil/(.*)", "destination": "/src/ceil/$1" },
+        { "source": "^/logo/(.*)", "destination": "/src/logo/$1" },
+        { "source": "^/main-styles/(.*)", "destination": "/src/main/main-styles/$1" },
+        { "source": "^/assets/(.*)", "destination": "/assets/$1" }
     ],
     "headers": [
         {
